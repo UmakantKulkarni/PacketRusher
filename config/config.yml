@@ -2,12 +2,12 @@
 gnodeb:
   # IP Address on the N2 Interface (e.g. used between the gNodeB and the AMF)
   controlif:
-    ip: "127.0.0.1"
+    ip: "128.10.130.67"
     port: 9487
 
   # IP Address on the N3 Interface (e.g. used between the gNodeB and the UPF)
   dataif:
-    ip: "127.0.0.1"
+    ip: "128.10.130.67"
     port: 2152
 
   # gNodeB's Identity
@@ -53,10 +53,10 @@ ue:
   homeNetworkPublicKeyID: 1
   
   # UE's SIM credentials
-  key: "00112233445566778899AABBCCDDEEFF"
-  opc: "00112233445566778899AABBCCDDEEFF"
+  key: "465b5ce8b199b49faa5f0a2ee238a6bc"
+  opc: "e8ed289deba952e4283b54e88e6183ca"
   amf: "8000"
-  sqn: "00000000"
+  sqn: "16f3b3f70fc2"
 
   # UE will request to establish a data session in this DNN (APN)
   dnn: "internet"
@@ -81,7 +81,7 @@ ue:
 
 # List of AMF that PacketRusher will try to connect to
 amfif:
-  - ip: "127.0.0.1"
-    port: 38412
+  - ip: "128.10.130.67"
+    port: 30412
 logs:
   level: 4
